@@ -21,8 +21,8 @@
 /**
  * struct fmt - Struct op
  *
- * @fmt: The format.
- * @fn: The function associated.
+ * @fmt: the format.
+ * @fn: the function associated.
  */
 struct fmt
 {
