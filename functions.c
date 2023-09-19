@@ -3,13 +3,13 @@
 /************************* PRINT CHAR *************************/
 
 /**
- * print_char - Prints a char
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: Width
- * @precision: Precision specification
- * @size: Size specifier
+ * print_char - prints a char
+ * @types: list a of arguments
+ * @buffer: buffer array to handle print
+ * @flags:  calculates active flags
+ * @width: width
+ * @precision: precision specification
+ * @size: size specifier
  * Return: Number of chars printed
  */
 
