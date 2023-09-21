@@ -2,16 +2,15 @@
 
 /****************** PRINT POINTER ******************/
 /**
- * print_pointer - prints the value of a pointer variable
- * @types: list a of arguments
- * @buffer: buffer array to handle print
- * @flags:  calculates active flags
+ * print_pointer - Prints the value of a pointer variable
+ * @types: List a of arguments
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
  * @width: get width
- * @precision: precision specification
- * @size: size specifier
+ * @precision: Precision specification
+ * @size: Size specifier
  * Return: Number of chars printed.
  */
-
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -64,7 +63,6 @@ int print_pointer(va_list types, char buffer[],
  * @size: Size specifier
  * Return: Number of chars printed
  */
-
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -148,7 +146,6 @@ int print_reverse(va_list types, char buffer[],
  * @size: Size specifier
  * Return: Numbers of chars printed
  */
-
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -189,3 +186,4 @@ int print_rot13string(va_list types, char buffer[],
 	}
 	return (count);
 }
+
